@@ -8,10 +8,10 @@
 
 HERE    B HERE
 
-SOURCE  DCD 0x12345678
 
         AREA DATA_AREA, DATA, READWRITE
 DEST    SPACE 4
+SOURCE  DCD 0x12345678
 
         END
 ---------------------------------------
